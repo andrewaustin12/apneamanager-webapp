@@ -251,7 +251,7 @@ const config = {
             "Empty lungs training",
             "Pro customization options"
           ],
-          imageSrc: "/mockup-tables.png",
+          imageSrc: "/mockup-co2.png",
           imageAlt: "Training tables interface"
         },
         {
@@ -264,7 +264,7 @@ const config = {
             "Alternate nostril breathing",
             "Detailed guidance for each exercise"
           ],
-          imageSrc: "/mockup-breathing.png",
+          imageSrc: "/mockup-breath.png",
           imageAlt: "Breathing exercises interface"
         },
         {
@@ -277,7 +277,7 @@ const config = {
             "Personal best tracking",
             "Pro training reminders"
           ],
-          imageSrc: "/mockup-progress.png",
+          imageSrc: "/mockup-charts.png",
           imageAlt: "Progress tracking interface"
         }
       ]

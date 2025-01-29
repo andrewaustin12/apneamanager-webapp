@@ -5,6 +5,7 @@ import config from "@/config";
 interface PricingButtonProps {
   text?: string;
   icon?: React.ReactNode;
+  className?: string;
 }
 
 export const PricingButton = ({ 
@@ -19,18 +20,19 @@ export const PricingButton = ({
     >
       <path d="M13 10V3L4 14h7v7l9-11h-7z" />
     </svg>
-  )
+  ),
+  className
 }: PricingButtonProps) => {
   const APP_STORE_URL = "https://apps.apple.com/us/app/sleep-apnea-snore-exercises/id6572302789";
   
   return (
     <button 
       onClick={() => window.open(APP_STORE_URL, '_blank')}
-      className={`text-gray font-semibold px-8 py-3 rounded-md flex items-center gap-2 hover:opacity-90`} 
+      className={`font-semibold px-8 py-3 rounded-md flex items-center gap-2 hover:opacity-90`} 
       style={{ backgroundColor: config.theme.colors.primary }}
     >
       {icon}
-      {text}
+      <span className={className}>{text}</span>
     </button>
   );
 };

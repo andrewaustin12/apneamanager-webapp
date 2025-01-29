@@ -48,10 +48,10 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
       </div>
       <div className="ml-3">
         <p className="text-sm">
-          Join <span className="font-medium text-primary">500+</span> others
+          Join <span className="font-medium text-primary">1000+</span> freedivers
         </p>
         <p className="text-sm font-medium">
-          Transform your sleep today
+          Training to reach new depths
         </p>
       </div>
     </div>

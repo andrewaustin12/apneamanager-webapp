@@ -32,7 +32,8 @@ export default function Hero() {
             <div className="flex flex-col gap-6 items-start">
               <div>
                 <PricingButton 
-                  text="Start Your Sleep Journey"
+                  text="Train Like a Champion Today"
+                  className="text-white"
                   icon={
                     <svg 
                       viewBox="0 0 24 24"
