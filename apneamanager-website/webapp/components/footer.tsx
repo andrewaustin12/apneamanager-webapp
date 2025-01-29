@@ -20,8 +20,8 @@ const footerLinks = {
   Links: [
     { label: 'Features', href: '/#features' },
     { label: 'FAQ', href: '/#faq' },
-    { label: 'Support', href: 'https://www.ideasandbugz.com/feedback/sleeptopia', isExternal: true },
-    { label: 'Instagram', href: 'https://www.instagram.com/sleeptopia_app/', isExternal: true },
+    { label: 'Support', href: 'https://www.ideasandbugz.com/feedback/apnea-manager', isExternal: true },
+    { label: 'Instagram', href: 'https://www.instagram.com/apneamanagerapp/', isExternal: true },
   ],
   Boring: [
     { label: 'Privacy Policy', href: '/privacypolicy' },
@@ -29,6 +29,7 @@ const footerLinks = {
   ],
   'By the Maker': [
     { label: 'Apnea Manager', href: 'https://apps.apple.com/us/app/apnea-freedive-stamina-trainer/id6477821385', isExternal: true },
+    { label: 'Sleeptopia', href: 'https://sleeptopia.us', isExternal: true },
     { label: 'Scuba Desk', href: 'https://apps.apple.com/us/app/scuba-desk-for-padi-ssi-raid/id6535681866', isExternal: true },
     { label: 'Ideas & Bugz', href: 'https://ideasandbugz.com', isExternal: true },
     { label: 'ScreenFast', href: 'https://screenfa.st', isExternal: true },

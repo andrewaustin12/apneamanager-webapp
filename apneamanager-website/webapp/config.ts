@@ -27,10 +27,9 @@ const config = {
     }
   },
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
-  appDescription:
-    "Reduce sleep apnea symptoms with guided exercises. Strengthen your airway muscles for better breathing and restful nights. Enjoy improved sleep and vitality!",
+  appDescription: "Elevate your breath holding with Apnea Manager: Track and visualize training, enhance performance and explore your limits effortlessly. The ultimate training companion for freedivers and spearfishers!",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "https://sleeptopia.us/",
+  domainName: "https://apneamanager.com/",
 
   // REQUIRED: Update with your social media links
   social: {
@@ -143,57 +142,46 @@ const config = {
   landingPage: {
     // REQUIRED - Hero section configuration
     hero: {
-      badge: "🌙 Better Sleep Starts Here",
-      title: "Transform Your Sleep with Guided Exercises",
-      description: "Our app provides a variety of guided exercises specifically designed to strengthen your airway muscles, promoting easier breathing and reducing sleep apnea symptoms. Whether you're new to managing sleep apnea or looking to enhance your current routine, our exercises cater to all levels and needs.",
-      cta: "Start Your Journey",
+      badge: "🌊 Dive Deeper, Hold Longer",
+      title: "Master Your Breath Hold Training",
+      description: "Whether you're just starting out or you're a seasoned diver looking to push your limits, Apnea Manager is designed to help you train your dry static apnea training, track, analyze, and enhance your performance with precision and ease.",
+      cta: "Start Training Now",
       image: {
         src: "/mockup-hero.png",
-        alt: "Sleeptopia App Preview"
-      },
-      promotion: {
-        discount: "30% off",
-        remainingCount: 50,
-        totalCount: 100
+        alt: "Apnea Manager App Preview"
       }
     },
     // OPTIONAL - Problem section configuration
     problem: {
-      title: "The Impact of Sleep Apnea",
-      description: "Understanding the daily challenges of untreated sleep apnea",
+      title: "Why Train with Apnea Manager?",
+      description: "Discover the potential of structured breath hold training",
       problems: [
-        { value: "30+", metric: "breathing pauses per hour", color: "accentNegative" },
-        { value: "70", metric: "decibels of snoring (as loud as a vacuum)", color: "accentNegative" },
-        { value: "3x", metric: "increased risk of car accidents", color: "accentNegative" },
-        { value: "4x", metric: "higher risk of heart problems", color: "accentNegative" },
-        { value: "50%", metric: "reduction in daily productivity", color: "accentNegative" },
-        { value: "5x", metric: "increased risk of depression", color: "accentNegative" },
-        { value: "7hrs", metric: "of disrupted sleep per night", color: "accentNegative" },
-        { value: "80%", metric: "of cases remain undiagnosed", color: "accentNegative" }
+        { value: "2-3x", metric: "typical improvement in breath hold time", color: "accentPositive" },
+        { value: "100%", metric: "customizable to your level", color: "accentPositive" },
+        { value: "4+", metric: "specialized breathing techniques", color: "accentPositive" },
+        { value: "24/7", metric: "progress tracking and analytics", color: "accentPositive" }
       ],
-      badge: "Why It Matters",
-      badgeColor: "rgba(255, 51, 51, 0.2)",
-      badgeTextColor: "accentNegative",
-      summary: "of people affected worldwide struggle with sleep apnea",
-      summaryValue: "936M"
+      badge: "Transform Your Training",
+      badgeColor: "rgba(30, 136, 229, 0.2)",
+      badgeTextColor: "primary"
     },
     // OPTIONAL - Frequently Asked Questions shown on the landing page
     faq: [
       {
-        question: "What is Sleeptopia?",
-        answer: "Sleeptopia is a specialized app designed to help reduce sleep apnea symptoms through guided exercises that strengthen your airway muscles. Our comprehensive approach includes exercise tracking, progress monitoring, and personalized journaling."
+        question: "What is Apnea Manager?",
+        answer: "Apnea Manager is the ultimate companion for freedivers and spearfishers, designed to help you train your dry static apnea, track progress, and enhance performance with precision and ease."
       },
       {
-        question: "How do the exercises help with sleep apnea?",
-        answer: "The exercises in our app are specifically designed to strengthen the muscles in your airway, which can help reduce sleep apnea symptoms. Regular practice of these exercises can lead to improved breathing during sleep and better sleep quality."
+        question: "How do the training tables work?",
+        answer: "Start with a breath hold test, and our algorithm will create personalized CO2 and O2 tables based on your Personal Best Breath Hold. Pro users can customize all aspects of their training tables."
       },
       {
-        question: "Is this app a replacement for medical treatment?",
-        answer: "No, Sleeptopia is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with your healthcare provider before beginning any new exercise regimen, especially if you have sleep apnea or other health conditions."
+        question: "What breathing exercises are available?",
+        answer: "We offer a comprehensive suite of breathing exercises including diaphragmatic breathing, empty lungs training, square/box breathing, and pranayama exercises. Pro users get access to additional customizable training options."
       },
       {
-        question: "How long before I see results?",
-        answer: "While individual results may vary, many users report improvements in their sleep quality within a few weeks of consistent exercise practice. Our six-week training program is designed to help you progressively build strength and see measurable improvements."
+        question: "What features are included in the Pro version?",
+        answer: "Pro users get access to customizable training tables, additional breathing exercises (including square breathing and pranayama), training reminders with notifications, and the ability to modify all aspects of their training programs."
       }
     ],
     // OPTIONAL - How it Works section configuration
@@ -235,46 +223,63 @@ const config = {
     features: {
       badge: "Features",
       title: "Your Complete Breath Hold Training Solution",
-      description: "Discover our comprehensive suite of tools designed to enhance your breath holding capacity and track your progress.",
+      description: "Unlock the power of personalized training with our comprehensive suite of features.",
       sections: [
         {
           title: "Personalized Training Tables",
-          description: "Get customized CO2 and O2 tables based on your personal best breath hold time.",
+          description: "Start with a breath hold test and get customized CO2 and O2 tables based on your Personal Best Breath Hold.",
           features: [
-            "Automatic table generation",
+            "CO2 tolerance tables",
+            "O2 maximization training",
             "Full lungs training",
             "Empty lungs training",
-            "Customizable for pro users"
+            "Pro customization options"
           ],
           imageSrc: "/mockup-tables.png",
           imageAlt: "Training tables interface"
         },
         {
           title: "Advanced Breathing Exercises",
-          description: "Access specialized breathing techniques to enhance your practice.",
+          description: "Access a variety of specialized breathing techniques to enhance your practice.",
           features: [
             "Diaphragmatic breathing",
             "Square/box breathing",
             "Pranayama exercises",
-            "Detailed guidance"
+            "Alternate nostril breathing",
+            "Detailed guidance for each exercise"
           ],
           imageSrc: "/mockup-breathing.png",
           imageAlt: "Breathing exercises interface"
         },
         {
-          title: "Progress Tracking",
+          title: "Progress Tracking & Reminders",
           description: "Monitor your journey with comprehensive tracking tools.",
           features: [
             "Session logging",
-            "Progress visualization",
-            "Historical data analysis",
-            "Personal best tracking"
+            "Detailed history charts",
+            "Session summaries",
+            "Personal best tracking",
+            "Pro training reminders"
           ],
           imageSrc: "/mockup-progress.png",
           imageAlt: "Progress tracking interface"
         }
       ]
     },
+    cta: {
+      title: "Ready to Master Your Breath?",
+      description: "Join thousands of freedivers who've improved their breath hold capacity with our proven training methods.",
+      buttonText: "Download on App Store",
+      buttonLink: "https://apps.apple.com/us/app/apnea-freedive-stamina-trainer/id6477821385",
+      buttonIcon: {
+        viewBox: "0 0 24 24",
+        path: "M13 10V3L4 14h7v7l9-11h-7z"
+      }
+    },
+    footer: {
+      tagline: "Experience the freedom of the deep. Dive smarter, hold longer, and surpass your limits with Apnea Manager.",
+      callToAction: "Start Your Journey Today"
+    }
   },
 };
 
