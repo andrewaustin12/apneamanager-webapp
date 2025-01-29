@@ -153,16 +153,32 @@ const config = {
     },
     // OPTIONAL - Problem section configuration
     problem: {
-      title: "Why Train with Apnea Manager?",
-      description: "Discover the potential of structured breath hold training",
+      title: "Transform Your Breath Hold Training",
+      description: "Track your progress and see real results with our proven training methods",
       problems: [
-        { value: "2-3x", metric: "typical improvement in breath hold time", color: "accentPositive" },
-        { value: "100%", metric: "customizable to your level", color: "accentPositive" },
-        { value: "4+", metric: "specialized breathing techniques", color: "accentPositive" },
-        { value: "24/7", metric: "progress tracking and analytics", color: "accentPositive" }
+        { 
+          value: "2-3x", 
+          metric: "Average breath hold improvement", 
+          color: "primary"
+        },
+        { 
+          value: "6+", 
+          metric: "Training exercises included", 
+          color: "primary" 
+        },
+        { 
+          value: "100%", 
+          metric: "Personalized to your level", 
+          color: "primary" 
+        },
+        { 
+          value: "24/7", 
+          metric: "Progress tracking & analytics", 
+          color: "primary" 
+        }
       ],
-      badge: "Transform Your Training",
-      badgeColor: "rgba(30, 136, 229, 0.2)",
+      badge: "Why Choose Apnea Manager",
+      badgeColor: "rgba(30, 136, 229, 0.1)",  // Lighter, more subtle background
       badgeTextColor: "primary"
     },
     // OPTIONAL - Frequently Asked Questions shown on the landing page
