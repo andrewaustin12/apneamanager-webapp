@@ -23,7 +23,7 @@ export const PricingButton = ({
   ),
   className
 }: PricingButtonProps) => {
-  const APP_STORE_URL = "https://apps.apple.com/us/app/sleep-apnea-snore-exercises/id6572302789";
+  const APP_STORE_URL = "https://apps.apple.com/us/app/apnea-freedive-stamina-trainer/id6477821385";
   
   return (
     <button 
