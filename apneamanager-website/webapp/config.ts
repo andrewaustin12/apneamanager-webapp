@@ -29,7 +29,7 @@ const config = {
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription: "Elevate your breath holding with Apnea Manager: Track and visualize training, enhance performance and explore your limits effortlessly. The ultimate training companion for freedivers and spearfishers!",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "https://apneamanager.com/",
+  domainName: "apneamanager.com",
 
   // REQUIRED: Update with your social media links
   social: {
