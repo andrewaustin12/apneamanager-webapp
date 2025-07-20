@@ -2,6 +2,20 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import Footer from "@/components/footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description: "Read Apnea Manager's terms of service. Learn about our privacy-focused approach and safety guidelines for breath hold training.",
+  openGraph: {
+    title: "Terms of Service | Apnea Manager",
+    description: "Read Apnea Manager's terms of service. Learn about our privacy-focused approach.",
+  },
+  twitter: {
+    title: "Terms of Service | Apnea Manager",
+    description: "Read Apnea Manager's terms of service. Learn about our privacy-focused approach.",
+  },
+};
 
 
 const TermsOfService = () => {

@@ -2,6 +2,20 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import Footer from "@/components/footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Learn about Apnea Manager's privacy-first approach. We collect no personal data - all training calculations happen locally on your device.",
+  openGraph: {
+    title: "Privacy Policy | Apnea Manager",
+    description: "Learn about Apnea Manager's privacy-first approach. We collect no personal data.",
+  },
+  twitter: {
+    title: "Privacy Policy | Apnea Manager",
+    description: "Learn about Apnea Manager's privacy-first approach. We collect no personal data.",
+  },
+};
 
 const PrivacyPolicy = () => {
   return (

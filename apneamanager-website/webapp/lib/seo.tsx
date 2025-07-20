@@ -15,7 +15,8 @@ export const getSEOTags = (): Metadata => ({
     template: `%s | ${config.appName}`
   },
   // Main description used for search results and social sharing
-  description: "Master your breath holding with personalized CO2 and O2 tables, track your progress, and enhance your freediving performance. The ultimate training companion for freedivers and spearfishers.",
+  // Optimized to be between 25-160 characters for better search engine display
+  description: "Master breath holding with personalized CO2 and O2 tables. Track progress and enhance freediving performance with the ultimate training companion.",
   // Favicon and other icons
   icons: {
     icon: config.appIcon,
@@ -61,7 +62,7 @@ export const getSEOTags = (): Metadata => ({
     url: `https://${config.domainName}`,
     siteName: config.appName,
     title: `${config.appName} - Master Your Breath Hold Training`,
-    description: "Elevate your freediving performance with personalized training tables, progress tracking, and comprehensive breathing exercises.",
+    description: "Master breath holding with personalized CO2 and O2 tables. Track progress and enhance freediving performance.",
     images: [
       {
         url: `https://${config.domainName}/og-image.png`,
@@ -78,7 +79,7 @@ export const getSEOTags = (): Metadata => ({
   twitter: {
     card: 'summary_large_image',
     title: `${config.appName} - Professional Breath Hold Training`,
-    description: "Take your freediving to the next level with personalized CO2 and O2 tables, progress tracking, and advanced breathing exercises.",
+    description: "Master breath holding with personalized CO2 and O2 tables. Track progress and enhance freediving performance.",
     images: [`https://${config.domainName}/og-image.png`],
     creator: config.social.x,
     site: config.social.x,
