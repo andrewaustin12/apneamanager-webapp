@@ -12,7 +12,12 @@ Disallow: /500
 # Disallow crawling of API routes
 Disallow: /api/
 
-# Allow crawling of important pages
+# Disallow crawling of admin/private areas
+Disallow: /dashboard/
+Disallow: /sign-in/
+Disallow: /sign-up/
+
+# Allow crawling of all public pages (redundant with Allow: / but explicit)
 Allow: /privacypolicy
 Allow: /termsofservice
 Allow: /feature-requests 

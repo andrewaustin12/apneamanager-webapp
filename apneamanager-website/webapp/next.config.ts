@@ -35,6 +35,20 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Add headers to ensure proper indexing
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'index, follow'
+          }
+        ],
+      },
+    ];
+  },
   // Other common config options (currently not used):
   // - rewrites(): Modify incoming request paths
   // - redirects(): Set up URL redirects
